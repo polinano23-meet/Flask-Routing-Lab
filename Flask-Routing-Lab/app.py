@@ -21,6 +21,9 @@ def product():
 def cart():
     return render_template('cart.html')
 
+@app.route('/product-1')
+def product_1():
+    return render_template('product-1.html')
 
 # Your code should be above
 

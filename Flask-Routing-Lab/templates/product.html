@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Product</title>
+    <title>Shoes</title>
+  <link rel="stylesheet" href="./static/css/style.css">
+
 </head>
 <body>
+<h2>Shoes</h2>
+
+<div class="card">
+  <img src="static/converse.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>Tailored Jeans</h1>
+  <p class="price">$19.99</p>
+  <p>Mens an womens Converse shoes available in so many colors.</p>
+  <a href="{{ url_for('cart') }}">
+  <p><button >Add to Cart</button></p>
+</a>
+</div>
 
 
 
